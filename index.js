@@ -3,6 +3,18 @@ function takeANumber ( lineofpeople, name) {
   return "Welcome, " + name +"."+  " You are number " + lineofpeople.length   + " in line.";
   
 }
+//[];
+
+
+function takeANumber(lineofpeople){
+  lineofpeople.push(lineofpeople.length);
+  return "Welcome, "+ " You are number "+ lineofpeople.length + ".";
+}
+lineofpeople[0];
+
+
+
+
 //var katzDeliLine = ["Veronica"];
 //console.log(takeANumber(katzDeliLine, "Adam"));
 //console.log(takeANumber(katzDeliLine, "I"));
