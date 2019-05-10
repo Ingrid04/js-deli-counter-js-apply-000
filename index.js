@@ -10,7 +10,7 @@ function takeANumber ( lineofpeople, name) {
 
 // var whatever = [];
  // whatever.push("Adam is cool");
- // whatever.push("Ingrid is the best");
+ // whatever.push("Ingrid is cool");
  // console.log(whatever);
  // whatever.shift();
  // console.log(whatever);
