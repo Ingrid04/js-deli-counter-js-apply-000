@@ -10,7 +10,7 @@ function takeANumber(lineofpeople){
   lineofpeople.push(lineofpeople.length);
   return "Welcome, "+ " You are number "+ lineofpeople.length + ".";
 }
-lineofpeople[0];
+lineofpeople = [0];
 
 
 
@@ -20,7 +20,7 @@ lineofpeople[0];
 //console.log(takeANumber(katzDeliLine, "I"));
 //console.log(takeANumber(katzDeliLine, "J"));
 
-// var whatever = [];
+// var whatever = [5 , 6, 7, 8];
  // whatever.push("Adam is cool");
  // whatever.push("Ingrid is cool");
  // console.log(whatever);
