@@ -5,13 +5,14 @@ function takeANumber ( lineofpeople, name) {
 }
 //[];
 
+var counter = 0;
 
 function takeANumber(lineofpeople){
-  lineofpeople.push(lineofpeople.length);
-  return "Welcome, "+ " You are number "+ lineofpeople.length + ".";
+  counter ++;
+  lineofpeople.push(counter);
+  return "Welcome, "+ " You are number "+ counter + ".";
 }
 lineofpeople = [0];
-
 
 
 
